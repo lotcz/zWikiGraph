@@ -3,10 +3,5 @@
 		"uri": "bolt://ubuntu-server.loc:7687",
 		"user": "neo4j",
 		"password": "he5lo"
-	},
-	"wiki": {
-		"uri": "bolt://ubuntu-server.loc:7687",
-		"user": "neo4j",
-		"password": "he5lo"
-	}	
+	}
 }

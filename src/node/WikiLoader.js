@@ -4,12 +4,17 @@ class WikiLoader {
 		this.wiki = wiki;
 	}
 	
-	loadArticlesFromCategory(category_name) {
-		return this.wiki.pagesInCategory("Category:"+category_name);
+	async loadArticlesFromCategory(category_name) {		
+		var articles = await this.wiki.pagesInCategory(category_name);
+		return articles;
 	}
 	
-	loadArticle() {
-		
+	async loadByTitle(title) {
+		return await this.wiki.page(title);
+	}
+	
+	async loadById(id) {
+		return await this.wiki.findById(id);
 	}
 }
 
