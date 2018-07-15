@@ -1,0 +1,9 @@
+{
+  "name": "wikigraph-update",
+  "description": "Updater for wikigraph.",
+  "version": "0.0.1",
+  "dependencies": {
+    "neo4j-driver": "1.6.2",
+    "wikijs": "*"
+  }
+}
