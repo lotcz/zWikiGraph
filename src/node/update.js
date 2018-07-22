@@ -23,6 +23,6 @@ node.exists().then(result => {
 
 const GraphImporter = require('./GraphImporter.js');
 var importer = new GraphImporter(driver, loader);
-importer.import("Category:Confucian texts")
+importer.import("Aswan")
 	.then((result) => driver.close())
 	.catch(console.log);
